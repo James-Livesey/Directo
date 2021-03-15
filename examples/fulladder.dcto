@@ -1,0 +1,4 @@
+: Sout (^ (^ Ain Bin) Cin);
+: Cout (| (& (^ Ain Bin) Cin) (& Ain Bin));
+
+union (= Sout 1) (= Cout 0)
